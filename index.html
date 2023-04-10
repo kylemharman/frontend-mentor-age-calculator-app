@@ -13,49 +13,58 @@
     <title>Frontend Mentor | Age calculator app</title>
   </head>
   <body>
-    <section class="calculator">
-      <form class="calculator__form" action="submit">
-        <div class="calculator__form-inputs-container">
-          <div class="calculator__form-group">
-            <label for="day">Day</label>
-            <input type="number" placeholder="DD" id="day" name="day" />
-            <span class="calculator__feedback calculator__day-feedback"> </span>
+    <main>
+      <section class="calculator">
+        <form class="calculator__form" action="submit">
+          <div class="calculator__form-inputs-container">
+            <div class="calculator__form-group">
+              <label for="day">Day</label>
+              <input type="number" placeholder="DD" id="day" name="day" />
+              <span class="calculator__feedback calculator__day-feedback">
+              </span>
+            </div>
+            <div class="calculator__form-group">
+              <label for="month">Month</label>
+              <input type="number" placeholder="MM" id="month" name="month" />
+              <span
+                class="calculator__feedback calculator__month-feedback"
+              ></span>
+            </div>
+            <div class="calculator__form-group">
+              <label for="year">Year</label>
+              <input type="number" placeholder="YYYY" id="year" name="year" />
+              <span
+                class="calculator__feedback calculator__year-feedback"
+              ></span>
+            </div>
           </div>
-          <div class="calculator__form-group">
-            <label for="month">Month</label>
-            <input type="number" placeholder="MM" id="month" name="month" />
-            <span
-              class="calculator__feedback calculator__month-feedback"
-            ></span>
+          <div class="calculator__submit-container">
+            <hr />
+            <button
+              class="calculator__submit-button"
+              type="submit"
+              aria-label="submit"
+            >
+              <svg>
+                <use xlink:href="./assets/images/icon-arrow.svg#arrow"></use>
+              </svg>
+            </button>
           </div>
-          <div class="calculator__form-group">
-            <label for="year">Year</label>
-            <input type="number" placeholder="YYYY" id="year" name="year" />
-            <span class="calculator__feedback calculator__year-feedback"></span>
-          </div>
+        </form>
+        <div class="results">
+          <span class="results__years-value">- -</span>
+          <span>years</span>
         </div>
-        <div class="calculator__submit-container">
-          <hr />
-          <button class="calculator__submit-button" type="submit">
-            <svg>
-              <use xlink:href="./assets/images/icon-arrow.svg#arrow"></use>
-            </svg>
-          </button>
+        <div class="results">
+          <span class="results__months-value">- -</span>
+          <span>months</span>
         </div>
-      </form>
-      <div class="results">
-        <span class="results__years-value">- -</span>
-        <span>years</span>
-      </div>
-      <div class="results">
-        <span class="results__months-value">- -</span>
-        <span>months</span>
-      </div>
-      <div class="results">
-        <span class="results__days-value">- -</span>
-        <span>days</span>
-      </div>
-    </section>
+        <div class="results">
+          <span class="results__days-value">- -</span>
+          <span>days</span>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="attribution">
         Challenge by
