@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <form class="calculator__form" action="submit">
+        <div class="calculator__form-inputs-container">
+          <div class="calculator__form-group">
+            <label for="day">Day</label>
+            <input type="number" placeholder="DD" id="day" name="day" />
+            <span class="calculator__feedback calculator__day-feedback"> </span>
+          </div>
+          <div class="calculator__form-group">
+            <label for="month">Month</label>
+            <input type="number" placeholder="MM" id="month" name="month" />
+            <span
+              class="calculator__feedback calculator__month-feedback"
+            ></span>
+          </div>
+          <div class="calculator__form-group">
+            <label for="year">Year</label>
+            <input type="number" placeholder="YYYY" id="year" name="year" />
+            <span class="calculator__feedback calculator__year-feedback"></span>
+          </div>
+        </div>
+        <div class="calculator__submit-container">
+          <hr />
+          <button class="calculator__submit-button" type="submit">
+            <svg>
+              <use xlink:href="./assets/images/icon-arrow.svg#arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div class="results">
+        <span class="results__years-value">- -</span>
+        <span>years</span>
+      </div>
+      <div class="results">
+        <span class="results__months-value">- -</span>
+        <span>months</span>
+      </div>
+      <div class="results">
+        <span class="results__days-value">- -</span>
+        <span>days</span>
+      </div>
+    </section>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/kyle-harman/">Kyle Harman</a>.
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
