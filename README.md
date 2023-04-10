@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kylemharman/frontend-mentor-age-calculator-app)
-- Live Site URL: [Add live site URL here](https://kylemharman.github.io/frontend-mentor-age-calculator-app/)
+- Solution URL: [https://github.com/kylemharman/frontend-mentor-age-calculator-app](View Solution)
+- Live Site URL: [https://kylemharman.github.io/frontend-mentor-age-calculator-app/](Live Site)
 
 ## My process
 
